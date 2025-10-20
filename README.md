@@ -6,15 +6,23 @@ Diese Lernumgebung besteht aus zwei getrennten Jupyter-Notebooks, die aufeinande
 1. **Notebook 1 – Emotionserkennung mit Transformern**  
 2. **Notebook 2 – Die Vorverarbeitungskette einer Texteingabe in LLMs**
 
-Beide Notebooks sind **autonom und explorativ** konzipiert. Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Oberstufenschüler:innen (Mathe-LK) sowie Lehramtsstudierende der Informatik ausgerichtet.
+Beide Notebooks sind **autonom und explorativ** konzipiert.  
+Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Oberstufenschüler:innen (Mathe-LK) sowie Lehramtsstudierende der Informatik ausgerichtet.
 
 ---
 
 ## Notebook 1: Emotionserkennung mit Transformern
 
-### Einleitung
-Das Notebook führt in die Anwendung von Transformer-Modellen im Bereich der Emotionserkennung ein.  
-Lernende explorieren reale Modelle, vergleichen maschinelle und menschliche Erkennungsergebnisse und reflektieren ethische Implikationen.
+### Didaktische Umrahmung
+
+**Einleitungsgeschichte:**  
+Die Lernenden starten mit einem Beispiel aus ihrem Alltag: Emotionserkennung durch Maschinen.  
+Sie begegnen Modellen, die Gefühle aus Text, Sprache oder Bildern erkennen können, und vergleichen diese mit der menschlichen Wahrnehmung.  
+So wird Neugier geweckt und zugleich eine Brücke zu ethischen Fragen geschlagen.
+
+**Reflexion & kognitive Belastung:**  
+Am Ende des Notebooks reflektieren die Lernenden ihren Erkenntnisprozess.  
+Sie analysieren, welche Darstellungsformen das Verständnis unterstützt haben und wie sich Explorations- und Instruktionsphasen auf ihre kognitive Beanspruchung ausgewirkt haben.
 
 ---
 
@@ -23,11 +31,11 @@ Lernende explorieren reale Modelle, vergleichen maschinelle und menschliche Erke
 **Kurzbeschreibung:**  
 Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergleichen Mensch vs. Maschine und leiten erste Ideen zum Mechanismus der Erkennung ab.
 
-**Lernziele:**
+**Lernziele:**  
 - Modelle zur Emotionserkennung praktisch erproben und Ergebnisse reflektieren.  
 - Erste konzeptionelle Brücke zum zugrunde liegenden Mechanismus schlagen (Vorwissen Richtung Self-Attention).
 
-**Grundvorstellungen:**
+**Grundvorstellungen:**  
 - Emotionserkennung ist modalitätsübergreifend (Text/Audio/Bild) möglich und liefert auswertbare Klassifikationen.  
 - Erste, vorläufige Vorstellung: Modellentscheidungen beruhen auf systematischen Merkmalen der Eingabe (Ausblick auf Self-Attention).
 
@@ -38,11 +46,10 @@ Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergle
 **Kurzbeschreibung:**  
 Diskussion von vier realitätsnahen Fällen mit drei klassischen Ethiken (Utilitarismus, Deontologie, Tugendethik); Ergebnisse werden festgehalten.
 
-**Lernziele:**
-- Anwendungen und Implikationen der Emotionserkennung entlang der drei Ethiken analysieren.  
-- Standpunkte begründet entwickeln und dokumentieren (z. B. Gruppenpuzzle/Debatte).
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand drei klassischer Ethiken.
 
-**Grundvorstellungen:**
+**Grundvorstellungen:**  
 - Bewertung von KI-Einsatz erfordert normatives Abwägen (Nutzen, Pflichten/Regeln, Tugenden).  
 - Technikfolgen sind kontextabhängig (Schule, Bewerbung, Unterricht, Kasse) und müssen argumentativ begründet werden.
 
@@ -55,9 +62,15 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 
 ## Notebook 2: Die Vorverarbeitungskette einer Texteingabe in LLMs
 
-### Einleitung
-Dieses Notebook bildet den Weg einer Texteingabe bis zu maschinenlesbaren Einbettungsvektoren ab.  
-Das **BERT-Modell** dient als Ankermodell; in den **Blöcken 1–2** wird der Prozess der **Tokenisierung** offengelegt.
+### Didaktische Umrahmung
+
+**Einleitungsgeschichte:**  
+Die Lernenden begleiten eine Texteingabe auf ihrem Weg durch ein Sprachmodell – von Buchstaben über Tokens bis hin zu Vektoren.  
+So wird der scheinbar „magische“ Vorgang der Sprachverarbeitung Schritt für Schritt transparent gemacht.
+
+**Reflexion & kognitive Belastung:**  
+Am Ende reflektieren die Lernenden, welche Teilprozesse sie am stärksten gefordert haben, und bewerten den eigenen Lernfortschritt.  
+Dadurch wird die metakognitive Bewusstheit gestärkt und Überforderung reduziert.
 
 ---
 
@@ -66,33 +79,54 @@ Das **BERT-Modell** dient als Ankermodell; in den **Blöcken 1–2** wird der Pr
 **Kurzbeschreibung:**  
 Untersuchung des Token-Vokabulars; Subword-Strukturen werden sichtbar gemacht.
 
-**Lernziele:**
-- Das Konzept „Token“ als kleinste Verarbeitungseinheit und die Rolle der Vokabeltabelle explorativ verstehen.
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:  
+- das Konzept des Tokens als kleinste Verarbeitungseinheit und das der Vokabeltabelle eines Transformers explorativ erfahren.
 
-**Grundvorstellungen (Tokens):**
+**Grundvorstellungen (1:1 aus Masterarbeit – Tokens):**  
 - Tokens sind die kleinsten Verarbeitungseinheiten eines LLMs, in die Eingabewörter aufgespalten werden.  
 - Sie sind Bestandteil eines Vokabulars.  
-- `##`-Tokens sind Stücke eines Wortes, die nicht am Wortanfang stehen.  
+- `##`-Tokens sind dabei Stücke eines Wortes, die nicht am Wortanfang stehen.  
 - Die Sondertokens `[CLS]`, `[SEP]` und `[PAD]` strukturieren den Eingabesatz.  
-- Der `[UNK]`-Token dient als Platzhalter für zu lange Eingabewörter und unbekannte Symbole.  
+- Der `[UNK]`-Token dient als Platzhalter für zu lange Eingabewörter und für unbekannte Symbole.  
 - Tokens sind eindeutigen IDs zugeordnet.
 
 ---
 
-### **Block 2 – Tokenisierung & WordPiece (Greedy-Longest-Match-First)**
+### **Block 2 – Allgemeine Tokenisierung**
 
 **Kurzbeschreibung:**  
-Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell; WordPiece-Verfahren wird erklärt.
+Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell.
 
-**Lernziele:**
-- Tokenisierung eigenständig durchführen.  
-- WordPiece-Ablauf (Greedy Longest Match) rekonstruieren.
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:  
+- die Tokenisierung anhand eines realen deutschen BERT-Modells eigenständig durchführen.
 
-**Grundvorstellungen (Tokenisierung):**
+**Grundvorstellungen (1:1 aus Masterarbeit – Tokenisierung):**  
 - Lernende verstehen, dass die Tokenisierung der erste Schritt der Verarbeitungskette einer Texteingabe in einem LLM ist.  
 - Sie wird durch einen Tokenisierer durchgeführt.  
 - Es findet ein Abgleich mit einem Token-Vokabular statt.  
 - Ist ein Wort nicht vorhanden, wird es so lange iterativ aufgespalten, bis das gesamte Wort gestückelt wurde.
+
+---
+
+### **Block 2.1 – WordPiece / Greedy-Longest-Match-First**
+
+**Kurzbeschreibung:**  
+Vertiefter Einblick in den Algorithmus der WordPiece-Tokenisierung nach Google Inc. (2018).  
+Lernende durchlaufen den Original-Code, wenden das Verfahren auf eigene Eingaben an und reflektieren Sonder- und Randfälle.
+
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende vollziehen das Greedy-Longest-Match-First-Verfahren des WordPiece-Modells nach, indem sie:  
+- den Original-Code der Google Inc. durchlaufen.  
+- das Verfahren auf einen Eingabesatz ihrer Wahl anwenden.  
+- Sonder- und Randfälle reflektieren.
+
+**Grundvorstellungen (1:1 aus Masterarbeit):**  
+- Ein häufig verwendeter Algorithmus der Tokenisierung ist Greedy-Longest-Match-First im WordPiece-Modell der Google Inc. (2018).  
+- Es handelt sich um ein heuristisches Suchverfahren, das von links nach rechts nach dem längsten, im Vokabular vorhandenen Wortstück des Eingabewortes sucht.  
+- Nach dem Finden eines Tokens spaltet es den Rest iterativ erneut auf.  
+- Beispiele für Sonder- und Randfälle – für die der `[UNK]`-Token reserviert ist – werden reflektiert.
 
 ---
 
@@ -101,15 +135,16 @@ Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell;
 **Kurzbeschreibung:**  
 Wiederholung zentraler Operationen (Betrag, Skalarprodukt, Vektoraddition) als Grundlage für Worteinbettungen.
 
-**Lernziele:**
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:  
 - Elemente eines Vektors ablesen.  
 - Vektoren addieren und subtrahieren.  
-- Zweidimensionale Vektoren in ein Koordinatensystem einzeichnen.  
-- Den Betrag eines Vektors ermitteln.  
-- Das Skalarprodukt zweier Vektoren bestimmen.
+- zweidimensionale Vektoren in ein Koordinatensystem einzeichnen.  
+- den Betrag eines Vektors ermitteln.  
+- das Skalarprodukt zweier Vektoren ermitteln.
 
-*Hinweis: Zu diesem Lernblock wurden noch keine expliziten Grundvorstellungen formuliert. Ergänzung folgt.*  
-_Potentielle Herleitung: Lernende begreifen Vektoren als abstrakte Repräsentationen, auf die algebraische und geometrische Operationen angewendet werden können._
+*Hinweis:* _Zu diesem Lernblock wurden noch keine expliziten Grundvorstellungen formuliert._  
+_Potentielle Herleitung:_ Lernende begreifen Vektoren als abstrakte Repräsentationen, auf die algebraische und geometrische Operationen angewendet werden können.
 
 ---
 
@@ -118,19 +153,20 @@ _Potentielle Herleitung: Lernende begreifen Vektoren als abstrakte Repräsentati
 **Kurzbeschreibung:**  
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
 
-**Lernziele:**
-- Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und können es erläutern, indem sie:  
-  - rezitieren, dass eine Einbettung ein hochdimensionaler Vektor in Zeilenvektor-Schreibweise ist, auf dem Rechenoperationen ausgeführt werden können.  
-  - erklären, wie aus einer Vokabeltabelle mithilfe der Token-ID eine Einbettung abgelesen wird.  
-  - reflektieren und beispielhaft erklären, dass Einbettungen als mentale Repräsentationen von Tokens und Wörtern fungieren und semantische wie auch grammatikalische Zusammenhänge kodieren.  
-  - reale Worteinbettungen im Tensor-Format explorieren.  
-  - ihr Wissen zu Einbettungen auf den nachfolgenden Lernblock zur Kosinusähnlichkeit übertragen.
+**Lernziele (1:1 aus Masterarbeit):**  
+Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und können es erläutern, indem sie:  
+- rezitieren, dass eine Einbettung ein hochdimensionaler Vektor in Zeilenvektor-Schreibweise ist, auf dem Rechenoperationen ausgeführt werden können.  
+- erklären, wie aus einer Vokabeltabelle mithilfe der Token-ID eine Einbettung abgelesen wird.  
+- reflektieren und beispielhaft erklären, dass Einbettungen als mentale Repräsentationen von Tokens und Wörtern fungieren und semantische wie auch grammatikalische Zusammenhänge kodieren.  
+- reale Worteinbettungen im Tensor-Format explorieren.  
+- ihr Wissen zu Einbettungen auf den nachfolgenden Lernblock zur Kosinusähnlichkeit übertragen.
 
-**Grundvorstellungen (Worteinbettungen):**
+**Grundvorstellungen (1:1 aus Masterarbeit):**  
 - (Wort-)Einbettungen sind hochdimensionale Vektoren im Spaltenvektor-Format.  
 - Sie speichern semantische und syntaktische Eigenschaften eines Tokens.  
 - Jedem Token des Vokabulars ist eine feste, eindeutige Vektorrepräsentation zugeordnet.  
-- Zwischen Worteinbettungen bestehen Ähnlichkeitsbeziehungen, die ihre semantische Nähe widerspiegeln.
+- Zwischen Worteinbettungen bestehen Ähnlichkeitsbeziehungen, die ihre semantische Nähe widerspiegeln.  
+- Semantische Nähe kann sich beispielsweise darin ausdrücken, dass sich Wörter taxonomisch, thematisch oder grammatikalisch nahestehen oder häufig im gleichen Kontext vorkommen.
 
 ---
 
@@ -139,11 +175,11 @@ Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage we
 **Kurzbeschreibung:**  
 Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 
-**Lernziele:**
+**Lernziele (1:1 aus Masterarbeit):**  
 - Kosinus-Ähnlichkeit berechnen und interpretieren.  
 - Semantische Nähe anhand geometrischer und algebraischer Zugänge diskutieren.
 
-**Grundvorstellungen (Kosinus-Ähnlichkeit):**
+**Grundvorstellungen (1:1 aus Masterarbeit):**  
 - Die Kosinusähnlichkeit beschreibt die Ähnlichkeit zweier Einbettungsvektoren ausschließlich über ihren Winkel zueinander – unabhängig von ihrer Länge.  
 - Sie stellt ein legitimes und anschauliches Werkzeug dar, um Bedeutungsnähe visuell zu explorieren.
 
@@ -154,8 +190,8 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Kurzbeschreibung:**  
 Positionsinformation wird als Zusatzsignal eingebracht, um Reihenfolge zu kodieren.
 
-*Hinweis: Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert. Ergänzung folgt.*  
-_Potentielle Herleitung: Lernende verstehen, dass Bedeutung auch durch Reihenfolge entsteht und Positionsinformationen notwendig sind, um Satzstruktur abzubilden._
+*Hinweis:* _Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert._  
+_Potentielle Herleitung:_ Lernende verstehen, dass Bedeutung auch durch Reihenfolge entsteht und Positionsinformationen notwendig sind, um Satzstruktur abzubilden.
 
 ---
 
@@ -164,8 +200,8 @@ _Potentielle Herleitung: Lernende verstehen, dass Bedeutung auch durch Reihenfol
 **Kurzbeschreibung:**  
 Überprüfen, festigen und übertragen: angeleitetes Beispiel plus eigenständige Anwendung.
 
-*Hinweis: Lernziele und Grundvorstellungen wurden im Ergebnisteil nicht konkret formuliert. Ergänzung empfohlen.*  
-_Potentielle Herleitung: Lernende wenden Konzepte der Tokenisierung und Einbettung eigenständig auf neue Sätze an, um die Transferfähigkeit zu sichern._
+*Hinweis:* _Lernziele und Grundvorstellungen wurden im Ergebnisteil nicht konkret formuliert._  
+_Potentielle Herleitung:_ Lernende wenden Konzepte der Tokenisierung und Einbettung eigenständig auf neue Sätze an, um Transferfähigkeit zu sichern.
 
 ---
 
@@ -174,14 +210,15 @@ _Potentielle Herleitung: Lernende wenden Konzepte der Tokenisierung und Einbettu
 **Kurzbeschreibung:**  
 Selbstreflexion zu Lernfortschritt und Beanspruchung; Passung der Instruktions-/Explorationsanteile.
 
-**Lernziele:**
+**Lernziele:**  
 - Eigenen Lernprozess bewerten und Strategien anpassen.
 
-**Grundvorstellungen:**
+**Grundvorstellungen:**  
 - Multimediale, explorative Elemente und klare Instruktionsschritte wirken gemeinsam lernwirksam.  
 - Transparenz über Mechanismen erhöht Nachvollziehbarkeit und reduziert kognitive Belastung.
 
 ---
 
 ## Übergreifendes Ziel (für N2)
+
 Lernende verstehen die komplette Vorverarbeitungskette einer Texteingabe – von der Tokenisierung bis zur semantischen Ähnlichkeitsmessung – und können diese auf reale LLMs übertragen.
