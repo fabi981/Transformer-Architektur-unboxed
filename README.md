@@ -3,9 +3,9 @@
 ## Anleitung zur Benutzung
 
 Diese Lernumgebung besteht aus zwei getrennten Jupyter-Notebooks, die aufeinander aufbauen:  
-1. **Notebook 1 – Emotionserkennung mit Transformern**  [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabianBuchheister/Transformer-Architektur-Unbox/HEAD?labpath=Notebook1.ipynb)
+1. **Notebook 1 – Emotionserkennung mit Transformern**  [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabi981/Transformer-Architektur-unboxed/HEAD?labpath=Notebook%201%20-%20Exploration%20von%20Transformern%20im%20Rahmen%20der%20Emoionserkennung.ipynb)
 
-2. **Notebook 2 – Die Vorverarbeitungskette einer Texteingabe in LLMs**  [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabianBuchheister/Transformer-Architektur-Unbox/HEAD?labpath=Notebook2.ipynb)
+2. **Notebook 2 – Die Vorverarbeitungskette einer Texteingabe in LLMs**  [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabianBuchheister/Transformer-Architektur-Unbox/HEAD?labpath=Notebook%202%20-%20Eine%20Erkundung%20der%20Eingabeverarbeitung%20von%20Transformern.ipynb)
 
 
 Beide Notebooks sind **autonom und explorativ** konzipiert.  
