@@ -1,0 +1,7 @@
+transformers
+scikit-learn
+numpy
+ipywidgets
+jupyterlab_widgets
+matplotlib
+ipython
