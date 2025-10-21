@@ -90,7 +90,7 @@ Dadurch wird die metakognitive Bewusstheit gestärkt und Überforderung reduzier
 Untersuchung des Token-Vokabulars; Subword-Strukturen werden sichtbar gemacht.
 
 **Konzepte:**
-- 
+- asd
 
 **Lernziele:**  
 Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:  
