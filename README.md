@@ -17,7 +17,7 @@ Die Lernenden starten mit einem Beispiel aus ihrem Alltag: Emotionserkennung dur
 Sie begegnen Modellen, die Gefühle aus Text, Sprache oder Bildern erkennen können, und vergleichen diese mit der menschlichen Wahrnehmung.  
 So wird Neugier geweckt und zugleich eine Brücke zu ethischen Fragen geschlagen.
 
-**Übergreifendes Lernziel deses Notebooks**  
+**Übergreifendes Lernziel dieses Notebooks**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand dreier klassischer Ethiken.
 
 --
@@ -67,13 +67,11 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 
 ## Notebook 2: Die Vorverarbeitungskette einer Texteingabe in LLMs
 
-### Didaktische Umrahmung
-
 **Idee der Einleitung und Umrahmung:**  
 Die Lernenden begleiten eine Texteingabe auf ihrem Weg durch ein Sprachmodell – von Buchstaben über Tokens bis hin zu Vektoren.  
 So wird der scheinbar „magische“ Vorgang der Sprachverarbeitung Schritt für Schritt transparent gemacht.
 
-## Übergreifendes Lernziel:
+**Übergreifendes Lernziel dieses Notebooks**:
 
 Lernende verstehen die komplette Vorverarbeitungskette einer Texteingabe – von der Tokenisierung bis zur semantischen Ähnlichkeitsmessung – und können diese auf reale LLMs übertragen.
 
