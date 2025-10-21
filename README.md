@@ -103,10 +103,13 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 
 ---
 
-### **Block 2 – Allgemeine Tokenisierung**
+### **Block 2 – Tokenisierung**
 
 **Kurzbeschreibung:**  
 Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell.
+
+**Konzepte:**
+- Token, Tokenisierung, strukturbildende Sondertokens, [UNK]-Token
 
 **Lernziele:**  
 Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:  
@@ -116,7 +119,7 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 - Lernende verstehen, dass die Tokenisierung der erste Schritt der Verarbeitungskette einer Texteingabe in einem LLM ist.  
 - Sie wird durch einen Tokenisierer durchgeführt.  
 - Es findet ein Abgleich mit einem Token-Vokabular statt.  
-- Ist ein Wort nicht vorhanden, wird es so lange iterativ aufgespalten, bis das gesamte Wort gestückelt wurde.
+- Ist ein Wort nicht vorhanden, wird es so lange iterativ aufgespalten, bis das gesamte Wort gestückelt wurde (oder ein Randfall auftritt).
 
 ---
 
@@ -125,6 +128,9 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 **Kurzbeschreibung:**  
 Vertiefter Einblick in den Algorithmus der WordPiece-Tokenisierung nach Google Inc. (2018).  
 Lernende durchlaufen den Original-Code, wenden das Verfahren auf eigene Eingaben an und reflektieren Sonder- und Randfälle.
+
+**Konzepte:**
+- Tokenisierung, [UNK]-Token, WordPiece, Greedy-Longest-Match-First
 
 **Lernziele:**  
 Lernende vollziehen das Greedy-Longest-Match-First-Verfahren des WordPiece-Modells nach, indem sie:  
@@ -145,6 +151,9 @@ Lernende vollziehen das Greedy-Longest-Match-First-Verfahren des WordPiece-Model
 **Kurzbeschreibung:**  
 Wiederholung zentraler Operationen (Betrag, Skalarprodukt, Vektoraddition) als Grundlage für Worteinbettungen.
 
+**Konzepte:**
+- (Spalten-)Vektoren, Vektoraddition und -subtraktion, Betrag eines Vektors, Skalarprodukt (geometrisch und algebraisch)
+
 **Lernziele:**  
 Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:  
 - Elemente eines Vektors ablesen.  
@@ -153,8 +162,10 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 - den Betrag eines Vektors ermitteln.  
 - das Skalarprodukt zweier Vektoren ermitteln.
 
-*Hinweis:* _Zu diesem Lernblock wurden noch keine expliziten Grundvorstellungen formuliert._  
-_Potentielle Herleitung:_ Lernende begreifen Vektoren als abstrakte Repräsentationen, auf die algebraische und geometrische Operationen angewendet werden können.
+**Grundvorstellungen:**  
+- Die grundlegende Darstellungsweise von Informationen in Transformern sind Einbettungsvektoren.
+- Interne Mechanismen eines Transformers verwenden grundlegende Vektor-Operationen wie die Vektor-Addition und das Skalarprodukt.
+- Für das Skalarprodukt existiert eine geometrische und eine algebraische Formel, die für das Verständnis von Worteinbettungen und der semantischen Nähe nützlich sind.
 
 ---
 
@@ -162,6 +173,9 @@ _Potentielle Herleitung:_ Lernende begreifen Vektoren als abstrakte Repräsentat
 
 **Kurzbeschreibung:**  
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
+
+**Konzepte:**
+- 
 
 **Lernziele:**  
 Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und können es erläutern, indem sie:  
@@ -185,7 +199,10 @@ Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und kön
 **Kurzbeschreibung:**  
 Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 
-**Lernziele (1:1 aus Masterarbeit):**  
+**Konzepte:**
+- Die Kosinus-Ähnlichkeit als anschauliches Maß der semantischen Nähe von Einbettungen
+
+**Lernziele:**  
 - Kosinus-Ähnlichkeit berechnen und interpretieren.  
 - Semantische Nähe anhand geometrischer und algebraischer Zugänge diskutieren.
 
@@ -200,17 +217,16 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Kurzbeschreibung:**  
 Positionsinformation wird als Zusatzsignal eingebracht, um Reihenfolge zu kodieren.
 
-*Hinweis:* _Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert._  
-_Potentielle Herleitung:_ Lernende verstehen, dass Bedeutung auch durch Reihenfolge entsteht und Positionsinformationen notwendig sind, um Satzstruktur abzubilden.
+*Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.*  
+
 
 ---
 
-### **Angedachter Block 7 - Worked Example & Transferaufgabe**
+### **Angedachter Block 7 - Worked Examples**
 
 **Kurzbeschreibung:**  
 Überprüfen, festigen und übertragen: angeleitetes Beispiel plus eigenständige Anwendung.
 
-*Hinweis:* _Lernziele und Grundvorstellungen wurden im Ergebnisteil nicht konkret formuliert._  
-_Potentielle Herleitung:_ Lernende wenden Konzepte der Tokenisierung und Einbettung eigenständig auf neue Sätze an, um Transferfähigkeit zu sichern.
+*Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.* 
 
 ---
