@@ -17,7 +17,7 @@ Die Lernenden starten mit einem Beispiel aus ihrem Alltag: Emotionserkennung dur
 Sie begegnen Modellen, die Gefühle aus Text, Sprache oder Bildern erkennen können, und vergleichen diese mit der menschlichen Wahrnehmung.  
 So wird Neugier geweckt und zugleich eine Brücke zu ethischen Fragen geschlagen.
 
-### **Übergreifendes Notebook-Ziel**  
+**Übergreifendes Lernziel deses Notebooks**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand dreier klassischer Ethiken.
 
 --
