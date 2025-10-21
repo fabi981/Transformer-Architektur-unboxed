@@ -178,6 +178,7 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
 
 **Konzepte:**
+-
 - 
 
 **Lernziele:**  
