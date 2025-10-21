@@ -178,8 +178,7 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
 
 **Konzepte:**
--
-- 
+- asdf
 
 **Lernziele:**  
 Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und können es erläutern, indem sie:  
