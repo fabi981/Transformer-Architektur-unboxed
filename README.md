@@ -28,12 +28,15 @@ Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergle
 
 **Explorierte Modelle:**
 https://huggingface.co/spaces/ElenaRyumina/Facial_Expression_Recognition bzw. https://huggingface.co/ElenaRyumina/face_emotion_recognition bzw. https://github.com/ElenaRyumina/EMO-AffectNetModel
+
 Die Deep-Residual-Learning Architektur (https://github.com/ox-vgg/vgg_face2) wurde auf einen Datensatz mit über 3 Millionen Bildern angewendet, um akkurat Emotionen aus Bildern auslesen zu können. Es handelt sich um eine der Vorgänger-Architekturen der Transformers - es bereits Residual Connections verwendet. Diese dienen der Verbindung der Encoder-Schichten eines Transformers und des Ausführens von Linearen Transformationen und Layernormalisierungen im Rahmen der Self-Attention.  
 
 https://huggingface.co/spaces/Dpngtm/Audio-Emotion-Recognition bzw. https://huggingface.co/Dpngtm/wav2vec2-emotion-recognition
+
 Dieses Wav2Vec2-Modell kann bis zu sieben Emotionen in Sprachdateien erkennen.
 
 https://huggingface.co/ChrisLalk/German-Emotions
+
 Es handelt sich um ein FacebookAI-Roberta-base-Modell (also ein von Facebook optimiertes BERT) und wurde feintrainiert, 27 verschiedene Emotionen aus deutschen Texten im String-Format abzulesen und zu unterscheiden.
 
 Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained) und wurden von ihrer Veröffentlicher:in feintrainiert (finetuned).
