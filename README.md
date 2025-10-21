@@ -12,8 +12,6 @@ Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet u
 
 ## Notebook 1: Emotionserkennung mit Transformern
 
-### Didaktische Umrahmung
-
 **Idee der Einleitung und der Umrahmung:**  
 Die Lernenden starten mit einem Beispiel aus ihrem Alltag: Emotionserkennung durch die Transformer-Technologie.  
 Sie begegnen Modellen, die Gefühle aus Text, Sprache oder Bildern erkennen können, und vergleichen diese mit der menschlichen Wahrnehmung.  
