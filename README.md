@@ -49,7 +49,7 @@ Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained
 - Emotionserkennung ist modalitätsübergreifend (Text/Audio/Bild) möglich und liefert auswertbare Klassifikationen.  
 - Erste, vorläufige Vorstellung: Modellentscheidungen beruhen auf systematischen Merkmalen der Eingabe (Ausblick auf Self-Attention).
 
-**Anschlusskonzepte:**
+**anschlussfähige technische Konzepte:**
 - Tokenisierung, Worteinbettungen, Self-Attention
 
 ---
