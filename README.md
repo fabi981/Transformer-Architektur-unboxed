@@ -37,7 +37,7 @@ Dieses Wav2Vec2-Modell kann bis zu sieben Emotionen in Sprachdateien erkennen.
 
 https://huggingface.co/ChrisLalk/German-Emotions
 
-Es handelt sich um ein FacebookAI-Roberta-base-Modell (also ein von Facebook optimiertes BERT) und wurde feintrainiert, 27 verschiedene Emotionen aus deutschen Texten im String-Format abzulesen und zu unterscheiden.
+Es handelt sich um ein FacebookAI-Roberta-base-Modell (also ein von MetaAI optimiertes BERT) und wurde feintrainiert, 27 verschiedene Emotionen aus deutschen Texten im String-Format abzulesen und zu unterscheiden.
 
 Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained) und wurden von ihrer Veröffentlicher:in feintrainiert (finetuned).
 
