@@ -15,7 +15,7 @@ Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet u
 **Idee der Einleitung und der Umrahmung:**  
 Die Lernenden starten mit einem Beispiel aus ihrem Alltag: Emotionserkennung durch die Transformer-Technologie.  
 Sie begegnen Modellen, die Gefühle aus Text, Sprache oder Bildern erkennen können, und vergleichen diese mit der menschlichen Wahrnehmung.  
-So wird Neugier geweckt und zugleich eine Brücke zu ethischen Fragen geschlagen.
+So wird Neugier auf die Architektur geweckt und zugleich eine Brücke zu ethischen Fragen geschlagen.
 
 **Übergreifendes Lernziel dieses Notebooks**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand dreier klassischer Ethiken.
