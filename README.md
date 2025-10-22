@@ -100,7 +100,7 @@ Lernende verstehen die komplette Vorverarbeitungskette einer Texteingabe – von
 Untersuchung des Token-Vokabulars; Subword-Strukturen werden sichtbar gemacht.
 
 **Konzepte:**
-- asd
+- das Token-Vokabular eines Transformers
 
 **Lernziele:**  
 Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:  
@@ -196,7 +196,7 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
 
 **Konzepte:**
-- asdf
+- (Wort-)Einbettungen; Vorweggriff auf Ähnlichkeitsbeziehungen zwischen Worteinbettungen
 
 **Lernziele:**  
 Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und können es erläutern, indem sie:  
