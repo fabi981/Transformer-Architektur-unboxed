@@ -82,7 +82,7 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 ## Notebook 2: Die Vorverarbeitungskette einer Texteingabe in LLMs
 
 **Idee der Einleitung und Umrahmung:**  
-Die Lernenden begleiten eine Texteingabe auf ihrem Weg durch ein Sprachmodell – von Buchstaben über Tokens bis hin zu Vektoren.  
+Die Lernenden begleiten eine Texteingabe auf ihrem Weg durch ein Sprachmodell – von Buchstaben über Tokens bis hin zur Einbettungsvektor-Dartellung.  
 So wird der scheinbar „magische“ Vorgang der Sprachverarbeitung Schritt für Schritt transparent gemacht.
 
 **Übergreifendes Lernziel dieses Notebooks**:
