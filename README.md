@@ -26,6 +26,9 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 **Kurzbeschreibung:**  
 Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergleichen Mensch vs. Maschine und leiten erste Ideen zum Mechanismus der Erkennung ab. Diese bieten Anschluss an eine breite Palette an Themen wie der Eingabeverarbeitung und der Self-Attention eines Transformers.
 
+![Bild]()
+
+
 **Explorierte Modelle:**
 https://huggingface.co/spaces/ElenaRyumina/Facial_Expression_Recognition bzw. https://huggingface.co/ElenaRyumina/face_emotion_recognition bzw. https://github.com/ElenaRyumina/EMO-AffectNetModel
 
@@ -59,6 +62,8 @@ Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained
 **Kurzbeschreibung:**  
 Vier reale oder realitätsnahe Fälle der Anwendung von Transformer-Technologien werden mit mit drei klassischen Ethiken (Utilitarismus, Deontologie, Tugendethik) analysiert. Die Ergebnisse werden in einem Padlet festgehalten.
 
+![Bild]()
+
 **Lernziele:**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand drei klassischer Ethiken.
 
@@ -89,6 +94,8 @@ Dadurch wird die metakognitive Bewusstheit gestärkt und Überforderung reduzier
 **Kurzbeschreibung:**  
 Untersuchung des Token-Vokabulars; Subword-Strukturen werden sichtbar gemacht.
 
+![Bild]()
+
 **Konzepte:**
 - asd
 
@@ -111,6 +118,8 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 **Kurzbeschreibung:**  
 Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell.
 
+![Bild]()
+
 **Konzepte:**
 - Token, Tokenisierung, strukturbildende Sondertokens, [UNK]-Token
 
@@ -131,6 +140,8 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 **Kurzbeschreibung:**  
 Vertiefter Einblick in den Algorithmus der WordPiece-Tokenisierung nach Google Inc. (2018).  
 Lernende durchlaufen den Original-Code, wenden das Verfahren auf eigene Eingaben an und reflektieren Sonder- und Randfälle.
+
+![Bild]()
 
 **Konzepte:**
 - Tokenisierung, [UNK]-Token, WordPiece, Greedy-Longest-Match-First
@@ -154,6 +165,8 @@ Lernende vollziehen das Greedy-Longest-Match-First-Verfahren des WordPiece-Model
 **Kurzbeschreibung:**  
 Wiederholung zentraler Operationen (Betrag, Skalarprodukt, Vektoraddition) als Grundlage für Worteinbettungen.
 
+![Bild]()
+
 **Konzepte:**
 - (Spalten-)Vektoren, Vektoraddition und -subtraktion, Betrag eines Vektors, Skalarprodukt (geometrisch und algebraisch)
 
@@ -176,6 +189,8 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 
 **Kurzbeschreibung:**  
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
+
+![Bild]()
 
 **Konzepte:**
 - asdf
@@ -202,6 +217,8 @@ Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und kön
 **Kurzbeschreibung:**  
 Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 
+![Bild]()
+
 **Konzepte:**
 - Die Kosinus-Ähnlichkeit als anschauliches Maß der semantischen Nähe von Einbettungen
 
@@ -220,6 +237,8 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Kurzbeschreibung:**  
 Positionsinformation wird als Zusatzsignal eingebracht, um Reihenfolge zu kodieren.
 
+![Bild]()
+
 *Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.*  
 
 
@@ -229,6 +248,8 @@ Positionsinformation wird als Zusatzsignal eingebracht, um Reihenfolge zu kodier
 
 **Kurzbeschreibung:**  
 Überprüfen, festigen und übertragen: angeleitetes Beispiel plus eigenständige Anwendung.
+
+![Bild]()
 
 *Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.* 
 
