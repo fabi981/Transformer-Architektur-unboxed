@@ -30,8 +30,6 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 **Kurzbeschreibung:**  
 Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergleichen Mensch vs. Maschine und leiten erste Ideen zum Mechanismus der Erkennung ab. Diese bieten Anschluss an eine breite Palette an Themen wie der Eingabeverarbeitung und der Self-Attention eines Transformers.
 
-![Bild](https://i.imgur.com/FOzDrXz.png)
-
 
 **Explorierte Modelle:**
 https://huggingface.co/spaces/ElenaRyumina/Facial_Expression_Recognition bzw. https://huggingface.co/ElenaRyumina/face_emotion_recognition bzw. https://github.com/ElenaRyumina/EMO-AffectNetModel
@@ -59,6 +57,8 @@ Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained
 **anschlussfähige technische Konzepte:**
 - Tokenisierung, Worteinbettungen, Self-Attention
 
+![Bild](https://i.imgur.com/FOzDrXz.png)
+
 ---
 
 ### **Block 2 – Ethische Betrachtung der Emotionserkennung**
@@ -66,18 +66,18 @@ Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained
 **Kurzbeschreibung:**  
 Vier reale oder realitätsnahe Fälle der Anwendung von Transformer-Technologien werden mit mit drei klassischen Ethiken (Utilitarismus, Deontologie, Tugendethik) analysiert. Die Ergebnisse werden in einem Padlet festgehalten.
 
-![Bild](https://i.imgur.com/s5dE41k.png)
-
-![Bild](https://i.imgur.com/s5dE41k.png)
-
-![Bild](https://i.imgur.com/EJoEodT.png)
-
 **Lernziele:**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand drei klassischer Ethiken.
 
 **Grundvorstellungen:**  
 - Die Bewertung des Einsatzes von KI erfordert normatives Abwägen (Nutzen, Pflichten/Regeln, Tugenden).  
 - Technikfolgen sind kontextabhängig (Schule, Bewerbung, Unterricht, Kasse) und müssen argumentativ begründet werden.
+
+![Bild](https://i.imgur.com/s5dE41k.png)
+
+![Bild](https://i.imgur.com/s5dE41k.png)
+
+![Bild](https://i.imgur.com/EJoEodT.png)
 
 ---
 
@@ -100,8 +100,6 @@ Lernende verstehen die komplette Vorverarbeitungskette einer Texteingabe – von
 **Kurzbeschreibung:**  
 Untersuchung des Token-Vokabulars; Subword-Strukturen werden sichtbar gemacht.
 
-![Bild](https://i.imgur.com/MvrZRZm.png)
-
 **Konzepte:**
 - asd
 
@@ -117,14 +115,14 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 - Der `[UNK]`-Token dient als Platzhalter für zu lange Eingabewörter und für unbekannte Symbole.  
 - Tokens sind eindeutigen IDs zugeordnet.
 
+![Bild](https://i.imgur.com/MvrZRZm.png)
+
 ---
 
 ### **Block 2 – Tokenisierung**
 
 **Kurzbeschreibung:**  
 Schrittweises Nachvollziehen der Tokenisierung mit realem deutschen BERT-Modell.
-
-![Bild](https://i.imgur.com/lUO3NP6.png)
 
 **Konzepte:**
 - Token, Tokenisierung, strukturbildende Sondertokens, [UNK]-Token
@@ -139,6 +137,8 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 - Es findet ein Abgleich mit einem Token-Vokabular statt.  
 - Ist ein Wort nicht vorhanden, wird es so lange iterativ aufgespalten, bis das gesamte Wort gestückelt wurde (oder ein Randfall auftritt).
 
+![Bild](https://i.imgur.com/lUO3NP6.png)
+
 ---
 
 ### **Block 2.1 – WordPiece / Greedy-Longest-Match-First**
@@ -146,8 +146,6 @@ Lernende vollziehen den Prozess der Tokenisierung nach, indem sie:
 **Kurzbeschreibung:**  
 Vertiefter Einblick in den Algorithmus der WordPiece-Tokenisierung nach Google Inc. (2018).  
 Lernende durchlaufen den Original-Code, wenden das Verfahren auf eigene Eingaben an und reflektieren Sonder- und Randfälle.
-
-![Bild](https://i.imgur.com/j3WdTuD.png)
 
 **Konzepte:**
 - Tokenisierung, [UNK]-Token, WordPiece, Greedy-Longest-Match-First
@@ -164,14 +162,14 @@ Lernende vollziehen das Greedy-Longest-Match-First-Verfahren des WordPiece-Model
 - Nach dem Finden eines Tokens spaltet es den Rest iterativ erneut auf.  
 - Beispiele für Sonder- und Randfälle – für die der `[UNK]`-Token reserviert ist – werden reflektiert.
 
+![Bild](https://i.imgur.com/j3WdTuD.png)
+
 ---
 
 ### **Block 3 – Grundlagen der Vektorrechnung**
 
 **Kurzbeschreibung:**  
 Wiederholung zentraler Operationen (Betrag, Skalarprodukt, Vektoraddition) als Grundlage für Worteinbettungen.
-
-![Bild](https://i.imgur.com/w7i5tE4.png)
 
 **Konzepte:**
 - (Spalten-)Vektoren, Vektoraddition und -subtraktion, Betrag eines Vektors, Skalarprodukt (geometrisch und algebraisch)
@@ -189,14 +187,14 @@ Lernende beherrschen die Grundlagen der Vektorrechnung. Sie können:
 - Interne Mechanismen eines Transformers verwenden grundlegende Vektor-Operationen wie die Vektor-Addition und das Skalarprodukt.
 - Für das Skalarprodukt existiert eine geometrische und eine algebraische Formel, die für das Verständnis von Worteinbettungen und der semantischen Nähe nützlich sind.
 
+![Bild](https://i.imgur.com/w7i5tE4.png)
+
 ---
 
 ### **Block 4 – Worteinbettungen (Embeddings)**
 
 **Kurzbeschreibung:**  
 Von Tokens zu Vektoren – Repräsentation im semantischen Raum als Grundlage weiterer Verarbeitung.
-
-![Bild](https://i.imgur.com/CQEioBl.png)
 
 **Konzepte:**
 - asdf
@@ -216,14 +214,14 @@ Lernende verstehen das Konzept der Worteinbettungen auf mehreren Ebenen und kön
 - Zwischen Worteinbettungen bestehen Ähnlichkeitsbeziehungen, die ihre semantische Nähe widerspiegeln.  
 - Semantische Nähe kann sich beispielsweise darin ausdrücken, dass sich Wörter taxonomisch, thematisch oder grammatikalisch nahestehen oder häufig im gleichen Kontext vorkommen.
 
+![Bild](https://i.imgur.com/CQEioBl.png)
+
 ---
 
 ### **Block 5 – Kosinus-Ähnlichkeit & semantische Nähe**
 
 **Kurzbeschreibung:**  
 Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
-
-![Bild](https://i.imgur.com/3Ycqt0L.png)
 
 **Konzepte:**
 - Die Kosinus-Ähnlichkeit als anschauliches Maß der semantischen Nähe von Einbettungen
@@ -235,3 +233,5 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Grundvorstellungen:**  
 - Die Kosinusähnlichkeit beschreibt die Ähnlichkeit zweier Einbettungsvektoren ausschließlich über ihren Winkel zueinander – unabhängig von ihrer Länge.  
 - Sie stellt ein legitimes und anschauliches Werkzeug dar, um Bedeutungsnähe visuell zu explorieren.
+
+![Bild](https://i.imgur.com/3Ycqt0L.png)
