@@ -10,7 +10,7 @@ Diese Lernumgebung besteht aus zwei getrennten Jupyter-Notebooks, die aufeinande
 Notebook 2 - Eine Erkundung der Eingabeverarbeitung von Transformern.ipynb
 
 Beide Notebooks sind **autonom und explorativ** konzipiert.  
-Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Oberstufenschüler:innen (Mathe-LK) sowie Lehramtsstudierende der Informatik ausgerichtet.
+Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Lehramtsstudierende der Informatik sowie interessierte Oberstufenschüler:innen mit Mathematik-LK ausgerichtet.
 
 **Link zu den Bildern dieses Readme's:** 
 
