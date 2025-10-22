@@ -7,8 +7,6 @@ Diese Lernumgebung besteht aus zwei getrennten Jupyter-Notebooks, die aufeinande
 
 2. **Notebook 2 – Die Vorverarbeitungskette einer Texteingabe in LLMs**  [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fabi981/Transformer-Architektur-unboxed/HEAD?labpath=Notebook%202%20-%20Eine%20Erkundung%20der%20Eingabeverarbeitung%20von%20Transformern.ipynb)
 
-Notebook 2 - Eine Erkundung der Eingabeverarbeitung von Transformern.ipynb
-
 Beide Notebooks sind **autonom und explorativ** konzipiert.  
 Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Lehramtsstudierende der Informatik sowie interessierte Oberstufenschüler:innen mit Mathematik-LK ausgerichtet.
 
