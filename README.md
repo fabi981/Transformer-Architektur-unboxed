@@ -10,7 +10,7 @@ Diese Lernumgebung besteht aus zwei getrennten Jupyter-Notebooks, die aufeinande
 Beide Notebooks sind **autonom und explorativ** konzipiert.  
 Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Lehramtsstudierende der Informatik sowie interessierte Oberstufenschüler:innen mit Mathematik-LK ausgerichtet.
 
-**Link zu den Bildern dieses Readme's:** 
+**Link zu den Bildern dieses Readme's:**  https://imgur.com/a/5szM8nC
 
 ## Notebook 1: Emotionserkennung mit Transformern
 
