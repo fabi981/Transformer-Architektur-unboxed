@@ -225,6 +225,9 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Konzepte:**
 - Die Kosinus-Ähnlichkeit als anschauliches Maß der semantischen Nähe von Einbettungen
 
+**Anschlussfähige Konzepte:**
+- Semantische Suche, Rankingsysteme, einbettungsbasierte Übersetzungssysteme
+
 **Lernziele:**  
 - Kosinus-Ähnlichkeit berechnen und interpretieren.  
 - Semantische Nähe anhand geometrischer und algebraischer Zugänge diskutieren.
