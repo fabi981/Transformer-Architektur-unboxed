@@ -12,6 +12,8 @@ Notebook 2 - Eine Erkundung der Eingabeverarbeitung von Transformern.ipynb
 Beide Notebooks sind **autonom und explorativ** konzipiert.  
 Sie kombinieren instruktive und explorative Phasen, sind multimedial gestaltet und auf Oberstufenschüler:innen (Mathe-LK) sowie Lehramtsstudierende der Informatik ausgerichtet.
 
+**Link zu den Bildern dieses Readme's:** 
+
 ## Notebook 1: Emotionserkennung mit Transformern
 
 **Idee der Einleitung und der Umrahmung:**  
@@ -28,7 +30,7 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 **Kurzbeschreibung:**  
 Lernende erkunden drei Modelle zur Emotionserkennung (Text, Audio, Bild), vergleichen Mensch vs. Maschine und leiten erste Ideen zum Mechanismus der Erkennung ab. Diese bieten Anschluss an eine breite Palette an Themen wie der Eingabeverarbeitung und der Self-Attention eines Transformers.
 
-![Bild]()
+![Bild](https://i.imgur.com/FOzDrXz.png)
 
 
 **Explorierte Modelle:**
@@ -64,7 +66,7 @@ Alle drei Modelle basieren auf großen vortrainierten Architekturen (pre-trained
 **Kurzbeschreibung:**  
 Vier reale oder realitätsnahe Fälle der Anwendung von Transformer-Technologien werden mit mit drei klassischen Ethiken (Utilitarismus, Deontologie, Tugendethik) analysiert. Die Ergebnisse werden in einem Padlet festgehalten.
 
-![Bild]()
+![Bild](https://i.imgur.com/s5dE41k.png)
 
 **Lernziele:**  
 Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der Emotionserkennung und reflektieren deren gesellschaftliche und ethische Implikationen anhand drei klassischer Ethiken.
