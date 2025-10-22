@@ -68,7 +68,7 @@ Vier reale oder realitätsnahe Fälle der Anwendung von Transformer-Technologien
 
 ![Bild](https://i.imgur.com/s5dE41k.png)
 
-![Bild](![Bild](https://i.imgur.com/s5dE41k.png))
+![Bild](https://i.imgur.com/s5dE41k.png)
 
 ![Bild](https://i.imgur.com/EJoEodT.png)
 
@@ -235,28 +235,3 @@ Messen semantischer Nähe zwischen Wortvektoren über die Kosinus-Ähnlichkeit.
 **Grundvorstellungen:**  
 - Die Kosinusähnlichkeit beschreibt die Ähnlichkeit zweier Einbettungsvektoren ausschließlich über ihren Winkel zueinander – unabhängig von ihrer Länge.  
 - Sie stellt ein legitimes und anschauliches Werkzeug dar, um Bedeutungsnähe visuell zu explorieren.
-
----
-
-### **Angedachter Block 6 – Positional Encoding**
-
-**Kurzbeschreibung:**  
-Positionsinformation wird als Zusatzsignal eingebracht, um Reihenfolge zu kodieren.
-
-![Bild]()
-
-*Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.*  
-
-
----
-
-### **Angedachter Block 7 - Worked Examples**
-
-**Kurzbeschreibung:**  
-Überprüfen, festigen und übertragen: angeleitetes Beispiel plus eigenständige Anwendung.
-
-![Bild]()
-
-*Zu diesem Lernblock wurden noch keine Grundvorstellungen formuliert.* 
-
----
