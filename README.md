@@ -75,7 +75,7 @@ Lernende verstehen die Anwendungsmöglichkeiten von Transformern im Rahmen der E
 
 ![Bild](https://i.imgur.com/s5dE41k.png)
 
-![Bild](https://i.imgur.com/s5dE41k.png)
+![Bild](https://i.imgur.com/VucukuI.png)
 
 ![Bild](https://i.imgur.com/EJoEodT.png)
 
